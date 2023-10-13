@@ -8,29 +8,27 @@
     <title>Mi portafolio</title>
 </head>
 <body>
+
    <!-- BARRA DE NAVEJACION-->
-    <section class="container">
-        <header class="border-bottom lh-1 py-3">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="text-center">
-                <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Portafolio</font></font></a>
-                </div>
-            </div>
-        </header>
+   <section id="nave">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" fill="currentColor" class="bi bi-stars" viewBox="0 0 20 20">
+          <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
+        </svg>
+        <span class="fs-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Portafolio</font></font></span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#perfil" class="nav-link active" aria-current="page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perfil profesional</font></font></a></li>
+        <li class="nav-item"><a href="#Act" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Actividades extracurriculares</font></font></a></li>
+        <li class="nav-item"><a href="#Proyecto" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Proyectos</font></font></a></li>
+        <li class="nav-item"><a href="#Compe" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Competencias</font></font></a></li>
+        <li class="nav-item"><a href="#Cont" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></a></li>
+      </ul>
+    </header>
+   </section>
       
-        <div class="nav-scroller py-1 mb-3 border-bottom">
-          <nav class="nav nav-underline justify-content-between">
-            
-            <a class="nav-item nav-link link-body-emphasis" href="#SobreMi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre mi</font></font></a>
-            <a class="nav-item nav-link link-body-emphasis" href="#perfil"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perfil profesional</font></font></a>
-            <a class="nav-item nav-link link-body-emphasis" href="#Act"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Actividades extracurriculares</font></font></a>
-            <a class="nav-item nav-link link-body-emphasis" href="#Proyecto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Proyectos</font></font></a>
-            <a class="nav-item nav-link link-body-emphasis" href="#Compe"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Competencias</font></font></a>
-            <a class="nav-item nav-link link-body-emphasis" href="#Cont"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></a>
-          
-          </nav>
-        </div>
-    </section>
      <!--PRESENTACIÓN-->
     <section id="pres" class="px-4 pt-5 my-5 text-center border-bottom">
         <h1 id="titulo" class="display-5 fw-bold text-body-emphasis">Acerca de mi</h1>
@@ -49,6 +47,7 @@
           </div>
         </div>
     </section>
+
     <!--PERFIL PROFESIONAL-->
     <section id="perfil">
       <div class="container px-4 py-5" id="hanging-icons">
@@ -63,7 +62,7 @@
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ingeneria Industrial</font></font></h3>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;" size="4">Estudiante con conocimiento en calidad, procesos de fabricación y manufactura, experiencia en robotica industrial y manufactura asistida por computadora </font><font style="vertical-align: inherit;" size="4">Interés en calidad y aprender a dibujar en Autodesk Fusion 360</font></font></p>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Estudiante con conocimiento en calidad, procesos de fabricación y manufactura, experiencia en robotica industrial y manufactura asistida por computadora </font><font style="vertical-align: inherit;">Interés en calidad y aprender a dibujar en Autodesk Fusion 360</font></font></p>
               <a href="#" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                 Conoce más
               </font></font></a>
@@ -79,7 +78,7 @@
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Técnico en procesos de gestión administrativa</font></font></h3>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;" size="4">Conocimiento en estados financieros, mercadotecnia y administración</font><font style="vertical-align: inherit;"></font></font></p>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Conocimiento en estados financieros, mercadotecnia y administración</font><font style="vertical-align: inherit;"></font></font></p>
               <a href="#" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                 Conoce más
               </font></font></a>
@@ -93,7 +92,7 @@
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Estudiante de desarrollo Web</font></font></h3>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font><font style="vertical-align: inherit;" size="4">Estudiante de desarrollo web en frond end, experiencia en HTML, CSS, BOOTSTRAP, JAVA y JavaScrip</font></font></p>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font><font style="vertical-align: inherit;">Estudiante de desarrollo web en frond end, experiencia en HTML, CSS, BOOTSTRAP, JAVA y JavaScrip</font></font></p>
               <a href="#" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                 Conoce más
               </font></font></a>
@@ -102,14 +101,16 @@
         </div>
       </div>
     </section>
-    <!--ACTIVIDADES COMPLEMENTARIAS-->
+
+    <!--ACTIVIDADES EXTRACURRICULARES-->
     <section id="Act" class="container px-4 py-5">
         <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cursos y Actividades extracurriculares</font></font></h2>
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
           <div class="col d-flex flex-column align-items-start gap-2">
-            <h2 id="art" class="fw-bold text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pool de talento de INROADS</font></font></h2>
-            <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título. </font><font style="vertical-align: inherit;">Le agregaremos otra oración y probablemente continuaremos hasta que nos quedemos sin palabras.</font></font></p>
-            <a href="#" class="btn btn-primary btn-lg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Conoce más</font></font></a>
+            <img width="610" src="Imagenes/inro.jpg" alt="">
+            <h2 id="art" class="fw-bold text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Permanezco al pool de talento de INROADS</font></font></h2>
+            <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> </font><font style="vertical-align: inherit;">Programa dieñado para desarrollar habilidades, desarrollo profesional y personal en jóvenes, con el objetivo de tener acceso a mejores oportunidades de trabajo, convirtiéndose en un agente de cambio.</font></font></p>
+            <a href="https://inroads.org.mx/" class="btn btn-primary btn-lg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Conoce más</font></font></a>
           </div>
           <div class="col">
             <div class="row row-cols-1 row-cols-sm-2 g-4">
@@ -122,8 +123,8 @@
                     <use xlink:href="#collection"></use>
                   </svg>
                 </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Diseño CAD en Autodesk Fusion 360</font></font></h4>
-                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
+                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cursos en P4H Bionics</font></font></h4>
+                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cursos tomados de dibujo en Autodesk Fusion 360, impresión en 3D y fundamentos de Python. </font></font></p>
               </div>
     
               <div class="col d-flex flex-column gap-2">
@@ -135,8 +136,8 @@
                     <use xlink:href="#gear-fill"></use>
                   </svg>
                 </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Programa de Mujer Digital</font></font></h4>
-                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
+                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Miembro de la primera generación de Mujer Digital</font></font></h4>
+                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Programa de capacitación y empleabilidad para mujeres, oportunidad de formación en habilidades técnicas y socioemocionales.</font></font></p>
               </div>
     
               <div class="col d-flex flex-column gap-2">
@@ -147,8 +148,8 @@
                     <use xlink:href="#speedometer"></use>
                   </svg>
                 </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Programa TECNOLOCHICAS PRO</font></font></h4>
-                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
+                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Miembro del programa TECNOLOCHICAS PRO</font></font></h4>
+                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Programa que inspira y crear oportunidades para jóvenes latinas a considerar estudiar carreras STEM.</font></font></p>
               </div>
     
               <div class="col d-flex flex-column gap-2">
@@ -159,13 +160,14 @@
                     <use xlink:href="#table"></use>
                   </svg>
                 </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Programa fundación ASPEL</font></font></h4>
-                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
+                <h4 class="fw-semibold mb-0 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Graduada del programa fundación ASPEL</font></font></h4>
+                <p class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Programa de formación en el área contable, ayuda a impulsar perfil laboral y oportunidades de empleo.</font></font></p>
               </div>
             </div>
           </div>
         </div>
     </section>
+
     <!--PROYECTOS-->
     <section id="Proyecto" class="container px-5 py-4">
       <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Proyectos</font></font></h2>
@@ -181,7 +183,7 @@
         <div class="card" style="width: 22rem">
           <img src="Imagenes/rhy.jpg" class="card-img-top" alt="Blog de musica">
           <div class="card-body">
-            <h5 class="card-title">Blog de música Rhydim</h5>
+            <h5 class="card-title">Blog de música Rhythm</h5>
             <p class="card-text">Primer repositorio realizado para el Programa de Mujer Digital, donde se aplicaron conocimiento en HTML, CSS y JavaScrip.</p>
             <a href="https://github.com/AnyFaty-Mejia/anyfatymejia.github.io" class="btn btn-primary">Ver repositorio</a>
           </div>
@@ -236,68 +238,90 @@
         </div>
       </div>
     </section>
+
      <!--COMPETENCIAS-->
-    <section id="Compe" class="container px-4 py-5">
-     <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Competencias</font></font></h2>
+    <section id="Compe">
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Competencias</font></font></h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-person-gear" viewBox="1 0 16 16">
+              <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm.256 7a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Zm3.63-4.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Trabajo en equipo</font></font></h3>
+              <!--<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>-->
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-balloon-heart" viewBox="1 0 16 16">
+              <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Abierta a la diversidad</font></font></h3>
+              <!--<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>-->
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-wind" viewBox="2 0 16 16">
+              <path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comunicación asertiva</font></font></h3>
+              <!--<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>-->
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-flag" viewBox="1 0 18 16">
+              <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capacidad de aprendizaje</font></font></h3>
+              <!--<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>-->
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-person-arms-up" viewBox="1 0 16 16">
+              <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
+              <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.492 1.492 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.72.72 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.72.72 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Resíliencia</font></font></h3>
+              
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-signpost-2" viewBox="1 0 18 16">
+              <path d="M7 1.414V2H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h5v1H2.5a1 1 0 0 0-.8.4L.725 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4H7v5h2v-5h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H9V6h4.5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.3 2.4a1 1 0 0 0-.8-.4H9v-.586a1 1 0 0 0-2 0zM13.5 3l.75 1-.75 1H2V3h11.5zm.5 5v2H2.5l-.75-1 .75-1H14z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adaptabilidad</font></font></h3>
+              
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-trophy" viewBox="0 0 18 16">
+              <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Liderazgo</font></font></h3>
+              
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-ui-checks" viewBox="0 0 18 16">
+              <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708l-2 2zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708l-2 2zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Compromiso</font></font></h3>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título destacado</font></font></h3>
-            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar el título.</font></font></p>
-          </div>
-        </div>
-    </section>
+    
     <!--CONTACTO-->
     <section id="Cont">
       <div class="container my-5">
@@ -307,7 +331,7 @@
           </svg>
           <h1 class="text-body-emphasis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactame</font></font></h1>
           <p class="col-lg-8 mx-auto fs-5 text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-            Este es un jumbotron personalizado que presenta una imagen SVG en la parte superior, un texto más largo que finaliza temprano gracias a una </font></font><code>.col-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">clase responsiva y un llamado a la acción personalizado.
+            Si esta interesado en saber más sobre mi formación y proyectos realizados o deseas tener una consulta o tutoria, puedes contactarme dando click en el boton.
           </font></font></p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-center">
             <a class="fs-2 text-dark" target="_blank" href="mailto:fatimamg1029@gmail.com">
