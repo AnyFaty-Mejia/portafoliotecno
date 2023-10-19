@@ -8,7 +8,7 @@ Incluye las secciones: sobre mí, proyectos, perfil profesional, competencias, c
 
 Incluye recursos multimedia.
 
-<a href="" target="_blank">**Visitalo ahora** 🚀</a>
+<a href="https://deft-brigadeiros-d15b58.netlify.app/" target="_blank">**Visitalo ahora** 🚀</a>
 
 # Secciones 
 
