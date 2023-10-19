@@ -1,12 +1,12 @@
 
 #nave a{
-    font-size: 25px;
+    font-size: 16px;
     
     
 }
 
 p{
-    font-size: 22px;
+    font-size: 18px;
     
 }
 
@@ -21,6 +21,13 @@ p{
 }
 #Act img{
     border-radius: 50px;
+    
 }
 
+#h2e h4{
+    font-size: 18px;
+}
+#h2e p{
+    font-size: 14px;
+}
 
